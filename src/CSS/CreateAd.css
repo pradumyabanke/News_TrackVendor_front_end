@@ -1,0 +1,21 @@
+@media screen and (max-width: 900px){
+.dashbox {
+    position: absolute;
+    left: auto;
+    /* width: auto; */
+    z-index: 0;
+    width: -webkit-fill-available;
+}
+    .navbarbox{
+        position: absolute;
+        width: 90vw;
+        /* min-width: 250px; */
+        height: 100%;
+        left: -250px;
+        transition: left ease-in-out 0.5s;
+      }
+      .navbarbox2{
+        left: 0%;
+    
+      }
+}

@@ -1,0 +1,100 @@
+.vendorcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.vendorbox1 {
+  width: 20vw;
+  height: 100vh;
+}
+
+.vendorbox2 {
+  width: 80vw;
+  height: 100vh;
+  position: absolute;
+  left: 20vw;
+}
+.vendorheader {
+  height: 12vh;
+  width: 100%;
+  background-color: rgba(49, 70, 177, 1);
+  color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.vendorheading {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+.buttongroup {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  width: 100%;
+  flex-wrap: wrap;
+  /* margin: 1rem auto; */
+  position: relative;
+  top: 12vh;
+}
+.formcontainer {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 12vh;
+}
+
+.vendortext {
+  font-size: 25px;
+  margin-left: 9%;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+.vendorinput {
+  width: 100%;
+}
+.vendorformbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  /* top: 12vh; */
+  margin-top: 2%;
+}
+.vendorformbox1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.vendorbtn {
+  width: 30%;
+  margin-left: 70%;
+  background-color: blue;
+  color: white;
+}
+.vendorpreviousbtn {
+  background-color: blue;
+  color: white;
+  width: 30%;
+}
+.btn1 {
+  font-size: 0.8vw;
+}
+
+/* .btn-group {
+  margin-top: 10%;
+} */
+.btn-group-vertical > .btn,
+.btn-group > .btn {
+  font-size: 11px;
+  font-weight: bolder;
+}
+.btn-group {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px 0px;
+}

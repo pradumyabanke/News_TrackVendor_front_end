@@ -1,0 +1,99 @@
+.rolebasedcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rolebasedbox1 {
+  width: 20vw;
+  height: 100vh;
+}
+
+.rolebasedbox2 {
+  width: 80vw;
+  height: 100vh;
+  position: absolute;
+  left: 20vw;
+}
+
+.rolebasedheader {
+  height: 12%;
+  width: 100%;
+  background-color: rgba(49, 70, 177, 1);
+  color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.rolebasedheading {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.buttongroup {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  width: 100%;
+  flex-wrap: wrap;
+  /* margin-top: 8%; */
+}
+
+.rolebtn {
+  margin-top: 3rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: darkgray;
+}
+
+.rolebtn:hover {
+  background-color: rgba(49, 70, 177, 1);
+  color: white;
+}
+
+.personalcontainer {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 5%;
+  position: relative;
+  top: 12vh;
+}
+
+.personalinput {
+  width: 100%;
+}
+
+.personaltext {
+  font-size: 25px;
+  margin-left: 9%;
+}
+
+.formbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.formbox1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.personalbtn {
+  width: 30%;
+  margin-left: 70%;
+  background-color: blue;
+  color: white;
+}
+
+.previousbtn {
+  background-color: blue;
+  color: white;
+  width: 30%;
+}

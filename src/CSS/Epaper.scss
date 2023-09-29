@@ -1,0 +1,212 @@
+.Epapermaincontainer {
+  display: flex;
+}
+
+.fa-solid {
+  padding-top: 0px;
+  font-size: 26px;
+}
+
+
+
+.top{
+  padding-top: 0px;
+}
+
+.epaperbox1 {
+  width: 20vw;
+}
+
+.epaperbox2 {
+  width: 80vw;padding-left: 1px;
+  width: 75vw;
+  height: 100vh;
+  position: absolute;
+  left: 25%;
+}
+
+.epaperheader {
+  height: 8%;
+  width: 100%;
+  // background-color: rgba(49, 70, 177, 1);
+  background-color: red;
+  color: white;
+  // display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.epaperheading {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.inputpdf {
+  text-align: center;
+  border: 1px solid rgb(186, 176, 176);
+  border-radius: 5px;
+  width: 46%;
+  height: 60px;
+  display: flex;
+}
+.previewButton {
+  height: 50px;
+  width: 35px;
+}
+.inputTag {
+  display: none;
+}
+
+.inputTaglabel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pdftext {
+  margin-bottom: 0 !important;
+  font-size: 10px;
+  font-weight: 600;
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+}
+
+
+
+.bottom {
+  display: flex;
+  margin: 2% 17px;
+  gap: 3.2rem;
+  align-items: center;
+    justify-content: center;
+}
+
+.centre{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 38px;
+}
+
+.epaperbtn {
+  padding: 10px 65px 10px 65px;
+  float: right;
+  margin-right: 5.5%;
+  margin-top: 2%;
+  width: 15%;
+  background-color: rgb(49, 70, 177);
+}
+
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: gray;
+
+  z-index: 2;
+}
+.modal-container {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+  width: 90vw;
+  height: 80vh;
+  z-index: 2;
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  padding: 2rem;
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+.modal-items {
+  // width: 250px;
+  width: 90%;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgb(221, 241, 204);
+
+  h2 {
+    text-align: center;
+  }
+  p {
+    font-family: "Bhaskar", Chanakya;
+  }
+  .modal-buttons {
+    height: 30px;
+    .publish {
+      width: auto;
+      height: 100%;
+      cursor: pointer;
+      background: transparent;
+      border: 1px solid gray;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: rgb(190, 190, 207);
+      }
+    }
+
+    .discard {
+      width: 30%;
+      height: 100%;
+      background: transparent;
+      border: 1px solid gray;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: rgb(190, 190, 207);
+      }
+    }
+    #select {
+      width: 40%;
+      background: transparent;
+      border: 1px solid gray;
+      border-radius: 5px;
+      height: 100%;
+
+      &:hover {
+        background-color: rgb(190, 190, 207);
+      } 
+    }
+  }
+}
+.css-8kmt9b {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.css-8kmt9b > :not(style) {
+  margin: 24px 10px;
+  width: 250px;
+  min-width: 250px;
+  width: 30%;
+}
+
+@media screen and (max-width: 900px){
+.epaperbox2 {
+    position: absolute;
+    left: auto;
+    width: auto;
+    z-index: 0;
+}
+
+.epaperbtn{
+  width: auto;
+}
+
+}

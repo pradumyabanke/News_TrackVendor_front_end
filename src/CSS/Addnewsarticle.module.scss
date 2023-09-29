@@ -1,0 +1,75 @@
+.addnewscontainer {
+  display: flex;
+}
+
+.FormControl {
+  width: 92%;
+  margin: 0px auto !important;
+}
+
+.addnewsnavbarbox {
+  width: 20%;
+}
+
+.postnewsheader {
+  height: 12%;
+  width: 100%;
+  background-color: rgba(49, 70, 177, 1);
+  color: white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 20%;
+  z-index: 5;
+}
+
+.postnewsheading {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+.ckeditor {
+  width: 92%;
+  margin: auto;
+}
+// .ckeditorBody {
+//   .ck-editor__editable {
+//     font-family: "bhaskar";
+//   }
+// }
+
+.cktitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.imagelabel {
+  margin-left: 3%;
+}
+.css-162aq47 {
+  width: 92%;
+  margin: auto;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.ck.ck-editor__main > .ck-editor__editable {
+  min-height: 100px;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  // opacity: 0;
+  position: relative;
+  left: 10%;
+  width: 80%;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  width: 80%;
+  margin: auto;
+}
+.MuiInputBase-formControl
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  width: 84%;
+}

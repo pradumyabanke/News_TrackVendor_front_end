@@ -1,0 +1,190 @@
+.maindashboard {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.dashboardtext {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding-top: 11px;
+  /* padding-left: 1rem; */
+}
+
+.dashwithfav{
+  background-color: rgb(49, 70, 177);
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 8%;
+  width: 100%;
+  padding: 1rem;
+}
+
+
+.fa-solid{
+  display: none;
+  /* padding-top: 0px; */
+  font-size: 20px;
+  /* padding-top: 0px; */
+}
+
+.navbarbox {
+  width: 25vw;
+    height: 100vh;
+}
+
+
+.dashbox {
+  padding-left: 1px;
+  width: 75vw;
+  height: 100vh;
+  position: absolute;
+  left: 25%;
+}
+
+.userstatuscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 1rem; */
+  justify-content: space-around;
+  margin-top: 2%;
+}
+
+.userstatusbox3 {
+  width: 20vw;
+  min-width: 260px;
+  height: 17vh;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 1px rgb(212, 204, 204);
+  display: flex;
+  align-items: center;
+  padding: 0.7rem;
+  gap: 0.7rem;
+}
+.iconscontainer {
+  background-color: rgb(165, 162, 162);
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  /* margin: 7%; */
+  opacity: 0.2;
+}
+.userstatusboxcontant {
+  margin: 0;
+}
+.userstatusboxcontant span {
+  /* color: rgb(49, 70, 177); */
+  color: red;
+  font-size: 18px;
+  font-weight: 700;
+}
+.userstatusbox6 {
+  width: 45vw;
+  min-width: 550px;
+  height: 28vh;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 1px rgb(212, 204, 204);
+}
+
+.userstatusbox4 {
+  width: 17vw;
+  min-width: 260px;
+  height: 28vh;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 1px rgb(212, 204, 204);
+}
+
+.E-PAPER-MODULE-text {
+  /* color: rgb(49, 70, 177); */
+  color: red;
+  margin: 5%;
+  font-weight: 700;
+}
+
+.userstatusbox5 {
+  width: 19vw;
+  min-width: 260px;
+  height: 40vh;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 1px rgb(212, 204, 204);
+  /* background-color: rgb(145, 143, 143); */
+  /* opacity: 0.9; */
+  /* z-index: 3; */
+}
+
+.userstatusbox54 {
+  width: 22vw;
+  min-width: 260px;
+  height: 40vh;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 1px rgb(212, 204, 204);
+}
+
+.toiimage {
+  width: 90%;
+  height: 65%;
+  border-radius: 5px;
+  margin: 5%;
+}
+.adimage {
+  width: 80%;
+  margin-left: 10%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.toideccription {
+  font-size: 10px;
+  margin: 4%;
+}
+.epapermoduleli {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+.epapermodulespan {
+  color: red;
+}
+.progress {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+h3 {
+  font-family: initial;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .fa-solid{
+    display: block;
+  }
+  .dashbox{
+    position: absolute;
+    left: auto;
+    width: auto;
+    z-index: 0;
+  }
+
+  .navbarbox{
+    position: absolute;
+    width: 90vw;
+    /* min-width: 250px; */
+    height: 100%;
+    left: -250px;
+    transition: left ease-in-out 0.5s;
+  }
+  .navbarbox2{
+    left: 0%;
+
+  }
+  
+}
+    
